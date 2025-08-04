@@ -1,0 +1,52 @@
+{
+	"CLI": {
+		"classes": [
+			"_CLI"
+		]
+	},
+	"Controller": {
+		"classes": [
+			"_CLI_Controller",
+			"_rabbitmq_Controller",
+			"_rabbitmqUI_Controller"
+		]
+	},
+	"Form": {
+		"classes": [
+			"_Form",
+			"rabbitmq_Form",
+			"rabbitmq_pub_Form",
+			"rabbitmq_sub_Form"
+		]
+	},
+	"pub": {
+		"methods": [
+			"TEST_Form_pub",
+			"TEST_Worker_declare",
+			"TEST_Worker_delete",
+			"TEST_Worker_publish"
+		],
+		"forms": [
+			"amqp_publish"
+		]
+	},
+	"rabbitmq": {
+		"classes": [
+			"amqp",
+			"amqp_consume",
+			"amqp_declare_queue",
+			"amqp_delete_queue",
+			"amqp_publish"
+		]
+	},
+	"sub": {
+		"methods": [
+			"TEST_Form_sub",
+			"TEST_Worker_consume"
+		],
+		"forms": [
+			"amqp_consume"
+		]
+	},
+	"trash": {}
+}
