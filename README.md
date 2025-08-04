@@ -9,3 +9,7 @@
 
 * the source code of this component is licensed under the [MIT license](https://github.com/miyako/4d-plugin-soci/blob/master/LICENSE).
 * **rabbitmq** is licensed under [MIT](https://github.com/alanxz/rabbitmq-c/blob/master/LICENSE).  
+
+<img width="640" height="auto" alt="スクリーンショット 2025-08-04 11 59 21" src="https://github.com/user-attachments/assets/e08b2e49-24d5-486f-9af6-d7ff96e4dcb1" />
+
+<img width="640" height="auto" alt="スクリーンショット 2025-08-04 11 59 24" src="https://github.com/user-attachments/assets/bca58483-8f06-4acd-9b18-03c1325583bc" />
