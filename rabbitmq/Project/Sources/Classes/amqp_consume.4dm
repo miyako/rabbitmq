@@ -36,8 +36,6 @@ Function connect($options : Object) : cs:C1710.amqp_consume
 	Case of 
 		: (Is macOS:C1572)
 			$command+=" cat"
-		: (Is Windows:C1573)
-			$command+=" more"
 	End case 
 	
 	This:C1470.controller.init().execute($command)
